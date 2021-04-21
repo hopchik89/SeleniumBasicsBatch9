@@ -48,7 +48,32 @@ Ends-with was used in xpath 1.0, we are using 2.0 and this method is not availab
 <ul> -- unordered list
 <ol> -- ordered list
 
+Advanced Xpath
+is based on parent and child, sibling relationship
 
+identifying elements by following sibling:
+//tagname[@attribute = 'attribute value']/following-sibling::tagname
+//input[@id = 'calFromDate']/following-sibling::img
 
+identifying elements by preceding siblings
+//tagname[@attribute = 'attribute value']/preceding-sibling::tagname
+//span[text() = '& Orders']/preceding-sibling::span
 
+identifying elements by its parent
+//tagname[@attribute = 'attribute value']/parent::parentTagname
+//span[text() = '& Orders']/parent::a
 
+identifying elements by its ancestor
+//tagname[@attribute = 'attribute value']/ancestor::ancestorTagname
+//input[@id = 'email']/ancestor::form
+
+identifying elements by its index
+(//img[@class = 'ui-datepicker-trigger'])[2]
+
+HW
+Navigate to http://syntaxtechs.com/selenium-practice/index.php
+Click on start practicing
+click on simple form demo
+enter any text on first text box
+click on show message
+quit the browser

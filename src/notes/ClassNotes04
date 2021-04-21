@@ -1,0 +1,34 @@
+Class 4
+
+CSS Selectors (Cascading Styling Sheet)
+
+It is another way of locating elements uniquely
+Syntax:
+tagname[attribute = 'attribute value']
+
+example: input[id = 'user-message']
+
+Css does not give you an opportunity to identify and element by text
+
+Shortcuts for CSS:
+Shortcut fro className: "." -- classname
+    tagname.classNameValue
+    input.form-control
+
+Shortcut for ID: "#" -- ID
+    tagname#idValue
+    input#ctl00_MainContent_username
+
+contains() method in css:
+* symbol represents contains() method = tagname[attribute *= 'partial attribute value']
+input[id *= 'user']
+
+starts-with method in css:
+^ symbol represents starts-with method -- tagname[attribute ^= 'starting attribute value']
+input[type ^= 'sub']
+
+ends-with method in css:
+$ symbol represents ends-with method -- tagname[attribute $= 'ending attribute value']
+input[id $= 'word']
+
+

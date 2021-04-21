@@ -67,6 +67,9 @@ identifying elements by its ancestor
 //tagname[@attribute = 'attribute value']/ancestor::ancestorTagname
 //input[@id = 'email']/ancestor::form
 
+identifying elements by its index
+(//img[@class = 'ui-datepicker-trigger'])[2]
+
 HW
 Navigate to http://syntaxtechs.com/selenium-practice/index.php
 Click on start practicing
