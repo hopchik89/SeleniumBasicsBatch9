@@ -32,3 +32,17 @@ $ symbol represents ends-with method -- tagname[attribute $= 'ending attribute v
 input[id $= 'word']
 
 
+WebElement Commands:
+consist of several methods where we can perform actions and get element state
+on the web page
+
+isEnabled() -- boolean value
+isSelected() -- boolean value
+isDisplayed() -- boolean value
+clear() -- void
+getText() -- String value
+getAttribute() -- String value
+
+
+
+
