@@ -11,7 +11,7 @@ public class Task1 {
      * 3. print out the title and the url in the console
      */
     public static void main(String[] args) {
-        System.setProperty("webdriver.chrome.driver", "drivers/chromedriver");
+        System.setProperty("webdriver.chrome.driver", "drivers/chromedriver.exe");
         WebDriver driver = new ChromeDriver();
         driver.get("https://amazon.com");
         String title = driver.getTitle();

@@ -10,7 +10,7 @@ import java.util.List;
 public class GetAllLinksFromEbay {
 
     public static void main(String[] args) {
-        System.setProperty("webdriver.chrome.driver", "drivers/chromedriver");
+        System.setProperty("webdriver.chrome.driver", "drivers/chromedriver.exe");
         WebDriver driver = new ChromeDriver();
         driver.get("https://ebay.com");
         List<WebElement> allLinks = driver.findElements(By.tagName("a"));
